@@ -1,4 +1,4 @@
 docker build -t eg_postgresql .
 ocker run -p 10000:5432 -d eg_postgresql
 
-psql -h localhost -p 10000 -d docker -U docker --password
+psql -h localhost -p 10000 -d jseminck -U jseminck --password
